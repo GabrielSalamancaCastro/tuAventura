@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  background-color: black;
+  color:wheat
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h3{
+  font-family: 'Roboto', sans-serif;
 }
+
+.decisions{
+  display: flex;
+  width: 700px;
+}
+
+.ultima-escogida{
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.storage{
+  display: flex;
+  align-items: center;
+}
+
+#storage-ul{
+  display:flex;
+  width: 100px;
+  justify-content: space-around;
+}
+
+
+#storage-li{
+  text-decoration: none;
+  list-style-type:none
+}
+
+
+.botones{
+  display: flex;
+  width: 700px;
+  justify-content: space-around;
+}
+
+
